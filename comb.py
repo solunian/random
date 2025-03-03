@@ -31,3 +31,11 @@ print(f"all: {C(28, 3) * c_sauces * c_toppings}")
 
 print(f"just one of everything: {C(28, 1) * C(8, 1) * C(12, 1)}")
 print(f"28 * 8 * 12: {28 * 8 * 12}")
+
+print(f"""
+#3: {C(20, 8) * C(12, 3) * C(9, 4) * C(5, 5)}""")
+
+print(f"factorial 20: {f(20)}")
+print(
+    f"ai answer: {f(20) / (f(8) * f(3) * f(4) * f(5))}"
+)  # ai did factorial math wrong. idk whats going on in that crazy black box ai magic
